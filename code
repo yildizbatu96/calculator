@@ -1,0 +1,15 @@
+def hesap():
+    a=float(input("Please enter first number: "))
+    b=float(input("Please enter second number: "))
+    c= input("Please choose on of these: *, /, -, +")
+    strc= str(c)
+    if(strc == "+"):
+        return a+b
+    elif(strc == "*"):
+        return a*b
+    elif(strc == "/"):
+        return a/b
+    else:
+        return a-b
+
+print(hesap())
