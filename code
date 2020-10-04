@@ -1,7 +1,7 @@
 def hesap():
     a=float(input("Please enter first number: "))
     b=float(input("Please enter second number: "))
-    c= input("Please choose on of these: *, /, -, +")
+    c= input("Please choose one of these: * to multiply two numbers, / to divide two numbers , - to subtract two numbers , + to add two number ")
     strc= str(c)
     if(strc == "+"):
         return a+b
